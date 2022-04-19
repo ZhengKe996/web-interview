@@ -37,6 +37,12 @@ export function findTowNumberCycle(arr: number[], n: number): number[] {
   return res;
 }
 
+/**
+ * 寻找 和为 n 的两个数 (双指针)
+ * @param arr 
+ * @param n 
+ * @returns 
+ */
 export function findTowNumberDoublePointer(arr: number[], n: number): number[] {
   const res: number[] = [];
   const length = arr.length;
